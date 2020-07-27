@@ -41,10 +41,10 @@ if ($data->text == 'salom') {
     $telegram->sendMessage('Yaxshi sizchi?');
 } elseif ($data->text == 'qandaysiz') {
     $telegram->sendMessage('Yaxshi sizchi?');
-} elseif ($data->text == 'rasim yubor' || $data->text == 'rasim jonat') {
-    $telegram->sendPhoto('https://www.fotor.com/ru/loopBannerImg/ru-homeloop2.jpg', 'senga rasim kerakmi ol ana bolmasa');
-} elseif ($data->text == 'rasim yuboring' || $data->text == 'rasim jonating') {
-    $telegram->sendPhoto('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg', 'Madaniyat bilan soraganingiz uchun raxmat :)');
+} elseif ($data->text == 'rasm yubor' || $data->text == 'rasm jonat') {
+    $telegram->sendPhoto('https://www.fotor.com/ru/loopBannerImg/ru-homeloop2.jpg', 'senga rasm kerakmi? ol ana bolmasa');
+} elseif ($data->text == 'rasm yuboring' || $data->text == 'rasim jonating') {
+    $telegram->sendPhoto('https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg', 'Madaniyat bilan so\'raganingiz uchun rahmat :)');
 } else {
-    $telegram->sendMessage('Kechirasiz meni soz boyligim chegaralangan va men boshqa soz bilmayman:( menga faqat "salom", "qalesan yoki qalesiz", "rasim yubor yoki rasim yuboring" desangiz javob berishim mumkin');
+    $telegram->sendMessage('Kechirasiz meni so\'z boyligim chegaralangan va men boshqa so\'z bilmayman:( menga faqat "salom", "qalesan yoki qalesiz", "rasm yubor yoki rasm yuboring" desangiz javob berishim mumkin');
 }
